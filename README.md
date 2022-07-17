@@ -6,8 +6,6 @@ This project requires the use of Neural Networks Machine Learning algorithms.  T
 
 ## Results
 
-## Summary
-
 ### Data Preprocessing
 
 1. What variable(s) are considered the target(s) for your model?
@@ -49,3 +47,13 @@ This project requires the use of Neural Networks Machine Learning algorithms.  T
 
 - Checked input data and brought back NAME column, that was initially skipped. I set a condition on the values that are less than 50 in “Other” group. That reduced the number of unique categorical values by binning the values.
 - Binned the ASK_AMT values.
+
+## Summary
+
+### Summary of the results
+
+The model loss and accuracy score tell us how well the model does with the dataset and parameters that we build the model. Loss score is equal to 0.512, meaning the probability model to fail is 51.20% and accuracy score is 0.7626, meaning that the probability model to be accurate is 76.26%.
+
+### Recommendation for further analysis
+
+- Adding more input values could improve the high amount of loss that we see in the model.  In the optimization created for this assignment, adding more input values improved the model by 3.74%.
